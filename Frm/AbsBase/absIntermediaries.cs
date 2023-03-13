@@ -1,6 +1,6 @@
 
 
-using System;
+using UnityEngine;
 
 public abstract class absIntermediaries : iIntermediaries
 {
@@ -9,11 +9,11 @@ public abstract class absIntermediaries : iIntermediaries
         GameController.instance.Change(interName);
     }
 
-    public virtual void Enter(params Object[] obj)
+    public virtual void Enter(params System.Object[] obj)
     {
     }
 
-    public virtual void Exit(Action<Object[]> act)
+    public virtual void Exit(System.Action<Object[]> act)
     {
         act.Invoke(null);
     }
@@ -30,6 +30,6 @@ public abstract class absIntermediaries : iIntermediaries
 
     public virtual void Updata()
     {
-        
+        Debug.Log("”Œœ∑‘À––123");
     }
 }

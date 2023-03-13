@@ -1,18 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class IResModule : MonoBehaviour
+using System;
+using Object = UnityEngine.Object;
+public interface IResModule 
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    T LoadAsset<T>(string path) where T : Object;
+    void LoadAssetAsync<T>(string path, Action<T> callBack) where T : Object;
+    void LoadCustom(string path);
+    void LoadCustomAsync(string path);
+    void UnLoadCustom(string path);
+    void UnLoadAsset(Object obj);
+    void Clear();
 }
