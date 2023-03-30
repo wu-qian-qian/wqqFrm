@@ -1,0 +1,12 @@
+MVC:IMvcBase作为游戏的框架中，游戏逻辑主要的运行点肯定是包含多个
+而且使用的频率应该是非常频繁的；
+在框架中游戏的运行主要为
+：gameLogin--》gameController--》intermediaries()--》controllers(内部包含View，Module，其他功能模块)，观察者
+游戏因为存在多个的原因所以对Mvc的容器注册需要有其他的功能做出区分，好让我们方便注册，注册更加便捷。
+因此MvcModule:IMvcModule用来对Mvc的注册，注销，获得实例，来进行管理。
+中介者只需要用特殊特性标记，再把自身的容器给到MvcModule由他来进行注册，获取实例
+所以MvcModule需要有3个方法
+1.拿到流程中的字段并且对字段中的特性作比较有标记的就取得(也就是取得Controller)
+2.拿到取得标记的字段类型，在对Controller进行遍历处理(处理View，Module)
+这里需要使用递归
+3.注销该Controller容器对view与Module的释放
