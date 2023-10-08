@@ -1,0 +1,6 @@
+D:\自建项目\Socket-TCP-Server\Application.IocManager\bin\Debug\Application.IocManager.dll
+D:\自建项目\Socket-TCP-Server\Application.IocManager\bin\Debug\Application.IocManager.pdb
+D:\自建项目\Socket-TCP-Server\Application.IocManager\obj\Debug\Application.Frm.csproj.AssemblyReference.cache
+D:\自建项目\Socket-TCP-Server\Application.IocManager\obj\Debug\Application.Frm.csproj.CoreCompileInputs.cache
+D:\自建项目\Socket-TCP-Server\Application.IocManager\obj\Debug\Application.IocManager.dll
+D:\自建项目\Socket-TCP-Server\Application.IocManager\obj\Debug\Application.IocManager.pdb
