@@ -1,0 +1,6 @@
+D:\自建项目\Socket-TCP-Server\Application.HttpAPI\bin\Debug\Application.HttpAPI.dll
+D:\自建项目\Socket-TCP-Server\Application.HttpAPI\bin\Debug\Application.HttpAPI.pdb
+D:\自建项目\Socket-TCP-Server\Application.HttpAPI\obj\Debug\Application.HttpAPI.csproj.AssemblyReference.cache
+D:\自建项目\Socket-TCP-Server\Application.HttpAPI\obj\Debug\Application.HttpAPI.csproj.CoreCompileInputs.cache
+D:\自建项目\Socket-TCP-Server\Application.HttpAPI\obj\Debug\Application.HttpAPI.dll
+D:\自建项目\Socket-TCP-Server\Application.HttpAPI\obj\Debug\Application.HttpAPI.pdb
